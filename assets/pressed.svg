@@ -1,0 +1,77 @@
+<svg id="pressed" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445.614" height="214.32" viewBox="0 0 445.614 214.32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.081" y1="0.06" x2="0.879" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="0.529" stop-color="#ffec00"/>
+      <stop offset="1" stop-color="#ff00ec"/>
+    </linearGradient>
+  </defs>
+  <path id="Caminho_10" data-name="Caminho 10" d="M25.756,5.776-3.52,98.414H364.568L413.2,5.776H25.756M21.524,0H422.757l-54.7,104.19H-11.4Z" transform="translate(22.857 58.175)" fill="url(#linear-gradient)"/>
+  <text id="Button" transform="translate(136.455 134.175)" fill="#95f11c" font-size="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Button</tspan></text>
+  <g id="dots" transform="translate(0 0)">
+    <g id="Group_9" data-name="Group 9">
+      <g id="Group_6" data-name="Group 6" transform="translate(6.259 20.721)">
+        <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="2.888" cy="2.888" r="2.888" stroke="none"/>
+          <circle cx="2.888" cy="2.888" r="2.388" fill="none"/>
+        </g>
+        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(43.317 8.663)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="2.888" cy="2.888" r="2.888" stroke="none"/>
+          <circle cx="2.888" cy="2.888" r="2.388" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_7" data-name="Group 7" transform="translate(72.61 0) rotate(40)">
+        <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(0)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+        <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(22.288 4.458)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_8" data-name="Group 8" transform="matrix(-0.208, 0.978, -0.978, -0.208, 12.519, 57.138)">
+        <g id="Ellipse_1-3" data-name="Ellipse 1" transform="translate(0 0)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+        <g id="Ellipse_2-3" data-name="Ellipse 2" transform="translate(22.288 4.458)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(444.977 213.053) rotate(179)">
+      <g id="Group_6-2" data-name="Group 6" transform="translate(6.259 20.721)">
+        <g id="Ellipse_1-4" data-name="Ellipse 1" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="2.888" cy="2.888" r="2.888" stroke="none"/>
+          <circle cx="2.888" cy="2.888" r="2.388" fill="none"/>
+        </g>
+        <g id="Ellipse_2-4" data-name="Ellipse 2" transform="translate(43.317 8.663)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="2.888" cy="2.888" r="2.888" stroke="none"/>
+          <circle cx="2.888" cy="2.888" r="2.388" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_7-2" data-name="Group 7" transform="translate(72.61 0) rotate(40)">
+        <g id="Ellipse_1-5" data-name="Ellipse 1" transform="translate(0)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+        <g id="Ellipse_2-5" data-name="Ellipse 2" transform="translate(22.288 4.458)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_8-2" data-name="Group 8" transform="matrix(-0.208, 0.978, -0.978, -0.208, 12.519, 57.138)">
+        <g id="Ellipse_1-6" data-name="Ellipse 1" transform="translate(0 0)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+        <g id="Ellipse_2-6" data-name="Ellipse 2" transform="translate(22.288 4.458)" fill="none" stroke="#a200ff" stroke-width="1">
+          <circle cx="1.486" cy="1.486" r="1.486" stroke="none"/>
+          <circle cx="1.486" cy="1.486" r="0.986" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

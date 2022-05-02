@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="438.828" height="118.991" viewBox="0 0 438.828 118.991">
+  <defs>
+    <filter id="Path_9" x="0" y="0" width="438.828" height="118.991" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#1cf146"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="mask" width="285.399" height="81.622" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="hovered" transform="translate(-2.196 -51.473)">
+    <g transform="matrix(1, 0, 0, 1, 2.2, 51.47)" filter="url(#Path_9)">
+      <g id="Path_9-2" data-name="Path 9" transform="translate(20.4 5)" fill="none">
+        <path d="M20.514,0H409.426L356.408,100.991H-11.4Z" stroke="none"/>
+        <path d="M 21.97897338867188 1.999992370605469 L -8.672393798828125 98.99073028564453 L 355.198974609375 98.99073028564453 L 406.1175537109375 1.999992370605469 L 21.97897338867188 1.999992370605469 M 20.51351928710938 -7.62939453125e-06 L 409.4263610839844 -7.62939453125e-06 L 356.4078369140625 100.9907302856445 L -11.4019775390625 100.9907302856445 L 20.51351928710938 -7.62939453125e-06 Z" stroke="none" fill="#00ff32"/>
+      </g>
+    </g>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(91.028 67.446)" clip-path="url(#clip-path)">
+      <g id="Group_2" data-name="Group 2">
+        <text id="HOVERED-2" data-name="HOVERED" transform="translate(0 66.046)" fill="aqua" font-size="56" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">HOVERED</tspan></text>
+        <text id="HOVERED-3" data-name="HOVERED" transform="translate(19.482 60)" fill="red" font-size="56" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">HOVERED</tspan></text>
+        <text id="HOVERED-4" data-name="HOVERED" transform="translate(9.741 63.023)" fill="#00ff32" font-size="56" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">HOVERED</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
