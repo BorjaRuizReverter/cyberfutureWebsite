@@ -1,11 +1,11 @@
 import React from "react";
 
-export const TitleSvg = () => {
+export const TitleSvg = ({width, height}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="1296.744"
-      height="161.626"
+      width= {width}
+      height= {height}
       viewBox="0 0 1296.744 161.626"
     >
       <g id="title" transform="translate(-68.854 -217.521)">
