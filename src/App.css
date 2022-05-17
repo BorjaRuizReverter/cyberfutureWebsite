@@ -1,4 +1,84 @@
-body {
-  background: url("../assets/BG_above.png");
-  background-size: 100%;
+*{
+  overflow-x: hidden;
 }
+
+.stars, .twinkling {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  border: 3px solid goldenrod;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+  border: 3px solid brown;
+}
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+
+.title {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  border: 3px solid #73AD21;
+  padding: 50px;
+}
+
+.Ground {
+  position: relative;
+  width: 100vw;
+}
+
+.Ground img{
+  position: relative;
+  width: 100vw;
+  border: 3px solid red;
+}
+
+.subtitle {
+  position: relative;
+  color: white;
+  z-index: 2;
+  margin: auto;
+  top: 100px;
+  width: 70vw;
+  border: 3px solid yellow;
+  padding: 50px;
+  text-align: center;
+}
+
+p{
+  font: normal normal bold 40px/48px Tahoma;
+}
+
+
