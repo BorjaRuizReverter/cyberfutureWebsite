@@ -84,14 +84,3 @@
 h1{
   font: normal bold 2vw Tahoma;
 }
-
-.CodeContainer{
-  position: relative;
-  background-color: grey;
-  z-index: 2;
-  border: 3px solid pink;
-  width: 70vw;
-  height: 20vw;
-  margin: auto;
-  top: 600px;
-}
