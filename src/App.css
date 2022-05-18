@@ -51,18 +51,22 @@
   z-index: 2;
   margin: auto;
   border: 3px solid #73AD21;
-  padding: 50px;
+  padding: 0px;
+  width: 70vw;
+  top: 80px;
 }
 
 .Ground {
   position: relative;
   width: 100vw;
+  top: -180px;
 }
 
 .Ground img{
   position: relative;
   width: 100vw;
   border: 3px solid red;
+  top: 100px;
 }
 
 .subtitle {
@@ -70,15 +74,24 @@
   color: white;
   z-index: 2;
   margin: auto;
-  top: 100px;
+  top: 200px;
   width: 70vw;
   border: 3px solid yellow;
   padding: 50px;
   text-align: center;
 }
 
-p{
-  font: normal normal bold 40px/48px Tahoma;
+h1{
+  font: normal bold 2vw Tahoma;
 }
 
-
+.CodeContainer{
+  position: relative;
+  background-color: grey;
+  z-index: 2;
+  border: 3px solid pink;
+  width: 70vw;
+  height: 20vw;
+  margin: auto;
+  top: 600px;
+}
