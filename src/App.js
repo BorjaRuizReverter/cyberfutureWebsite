@@ -7,8 +7,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div class="stars">
-        <div class="twinkling">
+      <div className="stars">
+        <div className="twinkling">
           <Titulo />
           <SubTitulo />
           <div className="Ground">
