@@ -1,7 +1,7 @@
 import React from "react";
 import BG from "./images/BG.svg";
-import Titulo from "./title.jsx";
-import SubTitulo from "./subtitle.jsx";
+import Titulo from "./title.js";
+import SubTitulo from "./subtitle.js";
 import "./App.css";
 
 function App() {
@@ -11,6 +11,10 @@ function App() {
         <div className="twinkling">
           <Titulo />
           <SubTitulo />
+          <pre className=" language-javascript">
+            <code className=" language-javascript"><span className="token keyword">import</span> 
+            </code>
+          </pre>
           <div className="Ground">
             <img src={BG} alt="Ground" />
           </div>
