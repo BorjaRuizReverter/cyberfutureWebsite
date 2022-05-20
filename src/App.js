@@ -11,10 +11,21 @@ function App() {
         <div className="twinkling">
           <Titulo />
           <SubTitulo />
-          <pre className=" language-javascript">
-            <code className=" language-javascript"><span className="token keyword">import</span> 
-            </code>
-          </pre>
+          <div className="codebox">
+            <pre className="language-javascript">
+              <code className="language-javascript">
+                <span className="import-color">import </span>
+                <span>&#10100;</span>
+                <span className="components-color">Button</span>
+                <span>,</span>
+                <span className="components-color">Card</span>
+                <span>&#10101; </span>
+                <span className="import-color">from </span>
+                <span>'Cyberfuture'</span>
+              </code>
+            </pre>
+          </div>
+
           <div className="Ground">
             <img src={BG} alt="Ground" />
           </div>

@@ -63,10 +63,9 @@
 }
 
 .Ground img{
-  position: relative;
+  position: static;
   width: 100vw;
   border: 3px solid red;
-  top: 100px;
 }
 
 .subtitle {
@@ -83,4 +82,34 @@
 
 h1{
   font: normal bold 2vw Tahoma;
+}
+
+.codebox{
+  position: relative;
+  z-index: 2;
+  color: white;
+  width: 40vw;
+  background-color: rgb(56, 50, 50);
+  border: 3px solid pink;
+  overflow-y: hidden;
+  margin: auto;
+  top: 300px;
+  height: 100px;
+}
+
+.language-javascript{
+  position: relative;
+  color: white;
+  width: 40vw;
+  border: 3px solid yellow;
+  overflow-y: hidden;
+  margin: auto;
+}
+
+.import-color{
+  color: darkred;
+}
+
+.components-color{
+  color: orange;
 }
