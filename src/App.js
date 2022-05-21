@@ -12,7 +12,7 @@ function App() {
           <Titulo />
           <SubTitulo />
           <div className="codebox">
-            <pre className="language-javascript">
+            <pre>
               <code className="language-javascript">
                 <span className="import-color">import </span>
                 <span>&#10100;</span>
@@ -23,10 +23,15 @@ function App() {
                 <span className="import-color">from </span>
                 <span>'Cyberfuture'</span>
                 <br></br>
-                <br></br>
-                <span className="import-color">return </span>
               </code>
             </pre>
+          </div>
+          <div className="paragraph">
+            <p>
+              <h1>Buttons</h1>
+              You can use CyberFuture`s custom button styles for give some action to
+              your boring components.
+            </p>
           </div>
 
           <div className="Ground">

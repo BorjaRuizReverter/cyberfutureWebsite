@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700;900&display=swap);
+
 *{
   overflow-x: hidden;
+  color: white;
+  font-family: 'Inter', sans-serif;
 }
 
 .stars, .twinkling {
@@ -45,7 +49,6 @@
   to {background-position:-10000px 5000px;}
 }
 
-
 .title {
   position: relative;
   z-index: 2;
@@ -59,7 +62,7 @@
 .Ground {
   position: relative;
   width: 100vw;
-  top: -180px;
+  top: -350px;
 }
 
 .Ground img{
@@ -69,8 +72,8 @@
 }
 
 .subtitle {
+  font: normal bold 2vw Tahoma;
   position: relative;
-  color: white;
   z-index: 2;
   margin: auto;
   top: 200px;
@@ -80,14 +83,9 @@
   text-align: center;
 }
 
-h1{
-  font: normal bold 2vw Tahoma;
-}
-
 .codebox{
   position: relative;
   z-index: 2;
-  color: white;
   width: 40vw;
   background-color: rgb(56, 50, 50);
   border: 3px solid pink;
@@ -99,11 +97,7 @@ h1{
 
 .language-javascript{
   position: relative;
-  color: white;
-  width: 40vw;
-  
-  overflow-y: hidden;
-  margin: auto;
+  font-size: 2vw;
 }
 
 .import-color{
@@ -112,4 +106,13 @@ h1{
 
 .components-color{
   color: orange;
+}
+
+.paragraph{
+  position: relative;
+  border: 3px solid pink;
+  width: 80vw;
+  top: 400px;
+  z-index: 2;
+  margin: auto;
 }
