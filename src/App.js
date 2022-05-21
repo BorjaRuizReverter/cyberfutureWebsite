@@ -22,6 +22,9 @@ function App() {
                 <span>&#10101; </span>
                 <span className="import-color">from </span>
                 <span>'Cyberfuture'</span>
+                <br></br>
+                <br></br>
+                <span className="import-color">return </span>
               </code>
             </pre>
           </div>

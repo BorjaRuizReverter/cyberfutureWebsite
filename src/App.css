@@ -101,7 +101,7 @@ h1{
   position: relative;
   color: white;
   width: 40vw;
-  border: 3px solid yellow;
+  
   overflow-y: hidden;
   margin: auto;
 }
