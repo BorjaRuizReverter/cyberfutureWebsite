@@ -16,11 +16,11 @@ function App() {
             <pre>
               <code className="language-javascript">
                 <span className="import-color">import </span>
-                <span>&#10100;</span>
+                <span>&#65115;</span>
                 <span className="imported-components-color">Button</span>
                 <span>,</span>
                 <span className="imported-components-color">Card</span>
-                <span>&#10101; </span>
+                <span>&#65116;</span>
                 <span className="import-color">from </span>
                 <span>'Cyberfuture'</span>
                 <br></br><br></br>
@@ -86,11 +86,11 @@ function App() {
             <pre>
               <code className="language-javascript">
                 <span className="import-color">import </span>
-                <span>&#10100;</span>
+                <span>&#65115;</span>
                 <span className="imported-components-color">Button</span>
                 <span>,</span>
                 <span className="imported-components-color">Card</span>
-                <span>&#10101; </span>
+                <span>&#65116;</span>
                 <span className="import-color">from </span>
                 <span>'Cyberfuture'</span>
                 <br></br><br></br>
