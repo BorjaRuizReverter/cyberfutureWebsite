@@ -60,12 +60,17 @@ function App() {
           </div>
           <div className="paragraph">
             <p>
-              <h1>Buttons</h1>
-              <h3>You can use CyberFuture`s custom button styles for give some action to
-              your boring components.</h3>
+              <h1></h1>
+              <h2>You can use CyberFuture`s custom styles for give some action to
+              your boring components.</h2>
             </p>
           </div>
-
+          <div className="paragraph">
+            <p>
+              <h1>Buttons</h1>
+              <h2>Primary buttons</h2>
+            </p>
+          </div>
           <div className="Ground">
             <img src={BG} alt="Ground" />
           </div>
