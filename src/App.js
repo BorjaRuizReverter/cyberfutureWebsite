@@ -41,7 +41,18 @@ function App() {
                 <span className="props-color">variant</span>
                 <span>='OutlinedCyberRose' </span>
                 <span className="props-color">color</span>
-                <span>='matrix'</span>
+                <span>='Matrix'</span>
+                <span >/</span>
+                <span >&gt;</span>
+                <br></br>
+                <span >&lt;</span>
+                <span className="components-color">Card </span>
+                <span className="props-color">variant</span>
+                <span>='Matrix' </span>
+                <span className="props-color">title</span>
+                <span>='Card Title' </span>
+                <span className="props-color">variant</span>
+                <span>='Matrix'</span>  
                 <span >/</span>
                 <span >&gt;</span>
               </code>
