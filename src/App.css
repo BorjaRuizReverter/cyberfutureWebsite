@@ -62,7 +62,7 @@
 .Ground {
   position: relative;
   width: 100vw;
-  top: -350px;
+  top: -500px;
 }
 
 .Ground img{
@@ -86,13 +86,13 @@
 .codebox{
   position: relative;
   z-index: 2;
-  width: 40vw;
+  width: 70vw;
   background-color: rgb(56, 50, 50);
   border: 3px solid pink;
   overflow-y: hidden;
   margin: auto;
   top: 300px;
-  height: 100px;
+  
 }
 
 .language-javascript{
@@ -101,11 +101,19 @@
 }
 
 .import-color{
-  color: darkred;
+  color: rgb(250, 129, 129);
+}
+
+.imported-components-color{
+  color: darkorange;
 }
 
 .components-color{
-  color: orange;
+  color: darkred;
+}
+
+.props-color{
+  color: darkgoldenrod;
 }
 
 .paragraph{
