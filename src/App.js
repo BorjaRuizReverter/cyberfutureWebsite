@@ -82,7 +82,7 @@ function App() {
           <div className="paragraph">
             <img src={PrimaryButtons} alt="PrimaryButtons" />
           </div>
-          <div className="codebox">
+          <div className="codebox2">
             <pre>
               <code className="language-javascript">
                 <span className="import-color">import </span>
@@ -97,35 +97,48 @@ function App() {
                 <span >&lt;</span>
                 <span className="components-color">Button </span>
                 <span className="props-color">text</span>
-                <span>='Button' </span>
+                <span>='ENABLED' </span>
                 <span className="props-color">variant</span>
-                <span>='Matrix' </span>
-                <span className="props-color">color</span>
-                <span>='Gold'</span>
+                <span>='Punk' </span>
                 <span >/</span>
                 <span >&gt;</span>
                 <br></br>
                 <span >&lt;</span>
                 <span className="components-color">Button </span>
                 <span className="props-color">text</span>
-                <span>='Button' </span>
+                <span>='ENABLED' </span>
                 <span className="props-color">variant</span>
-                <span>='OutlinedCyberRose' </span>
-                <span className="props-color">color</span>
-                <span>='Matrix'</span>
+                <span>='Rose' </span>
                 <span >/</span>
                 <span >&gt;</span>
                 <br></br>
                 <span >&lt;</span>
-                <span className="components-color">Card </span>
+                <span className="components-color">Button </span>
+                <span className="props-color">text</span>
+                <span>='ENABLED' </span>
                 <span className="props-color">variant</span>
-                <span>='Matrix' </span>
-                <span className="props-color">title</span>
-                <span>='Card Title' </span>
-                <span className="props-color">variant</span>
-                <span>='Matrix'</span>
+                <span>='OutlinedCyberSly' </span>
                 <span >/</span>
                 <span >&gt;</span>
+                <br></br>
+                <span >&lt;</span>
+                <span className="components-color">Button </span>
+                <span className="props-color">text</span>
+                <span>='ENABLED' </span>
+                <span className="props-color">variant</span>
+                <span>='Gold' </span>
+                <span >/</span>
+                <span >&gt;</span>
+                <br></br>
+                <span >&lt;</span>
+                <span className="components-color">Button </span>
+                <span className="props-color">text</span>
+                <span>='ENABLED' </span>
+                <span className="props-color">variant</span>
+                <span>='Matrix' </span>
+                <span >/</span>
+                <span >&gt;</span>
+                <br></br>
               </code>
             </pre>
           </div>

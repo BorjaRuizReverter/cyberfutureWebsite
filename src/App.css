@@ -87,7 +87,7 @@
   font: normal bold 2vw Tahoma;
 }
 
-.codebox{
+.codebox {
   position: relative;
   z-index: 2;
   width: 70vw;
@@ -97,6 +97,19 @@
   margin: auto;
   top: 300px;
 }
+
+.codebox2 {
+  position: relative;
+  z-index: 2;
+  width: 70vw;
+  background-color: rgb(56, 50, 50);
+  border: 3px solid pink;
+  overflow-y: hidden;
+  margin: auto;
+  top: 500px;
+}
+
+
 
 .language-javascript{
   position: relative;
