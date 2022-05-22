@@ -60,11 +60,8 @@ function App() {
             </pre>
           </div>
           <div className="paragraph">
-            <p>
-              <h1></h1>
-              <h2>You can use CyberFuture`s custom styles for give some action to
+          <h2>You can use CyberFuture`s custom styles for give some action to
               your boring components.</h2>
-            </p>
           </div>
           <div className="paragraph">
             <p>
@@ -72,15 +69,13 @@ function App() {
             </p>
           </div>
           <div className="paragraph">
-            <p>
-              <h1>Buttons</h1>
+          <h1>Buttons</h1>
               <h2>Primary buttons</h2>
-            </p>
           </div>
           <div className="paragraph">
           </div>
           <div className="paragraph">
-            <img src={PrimaryButtons} alt="PrimaryButtons" />
+            <img src={PrimaryButtons} alt="PrimaryButtons" width='100%'/>
           </div>
           <div className="codebox2">
             <pre>

@@ -89,9 +89,10 @@
 
 .codebox {
   position: relative;
+  padding: 3%;
   z-index: 2;
   width: 70vw;
-  background-color: rgb(56, 50, 50);
+  background-color: #252931;
   border: 3px solid pink;
   overflow-y: hidden;
   margin: auto;
@@ -100,16 +101,15 @@
 
 .codebox2 {
   position: relative;
+  padding: 3%;
   z-index: 2;
   width: 70vw;
-  background-color: rgb(56, 50, 50);
+  background-color: #252931;
   border: 3px solid pink;
   overflow-y: hidden;
   margin: auto;
   top: 500px;
 }
-
-
 
 .language-javascript{
   position: relative;
