@@ -57,7 +57,7 @@
   border: 3px solid #73AD21;
   padding: 0px;
   width: 70vw;
-  top: 80px;
+  top: 50px;
 }
 
 .Ground {
@@ -96,7 +96,7 @@
   border: 3px solid pink;
   overflow-y: hidden;
   margin: auto;
-  top: 300px;
+  top: 250px;
 }
 
 .codebox2 {
@@ -139,4 +139,16 @@
   top: 400px;
   z-index: 2;
   margin: auto;
+}
+
+.below-title{
+  border: 3px solid pink;
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/BG.svg');
+  background-size: cover;
+}
+
+#FirstSection{
+  border: 3px solid green;
 }
