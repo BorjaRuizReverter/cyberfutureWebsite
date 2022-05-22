@@ -108,7 +108,6 @@
   border: 3px solid pink;
   overflow-y: hidden;
   margin: auto;
-  top: 500px;
 }
 
 .language-javascript{
@@ -136,7 +135,6 @@
   position: relative;
   border: 3px solid pink;
   width: 80vw;
-  top: 400px;
   z-index: 2;
   margin: auto;
 }
@@ -150,5 +148,9 @@
 }
 
 #FirstSection{
+  border: 3px solid green;
+}
+
+#SecondSection{
   border: 3px solid green;
 }

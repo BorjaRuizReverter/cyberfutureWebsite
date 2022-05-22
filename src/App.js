@@ -4,6 +4,7 @@ import "./App.css";
 import PrimaryButtons from "./images/PrimaryButtons.png";
 import { TitleSvg } from "./images/titlesvg.jsx";
 import Codebox1 from "./codebox1";
+import Codebox2 from "./codebox2";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
               <Codebox1 />
             </div>
           </section>
-
+          <section id="SecondSection">
           <div className="paragraph">
             <h2>
               You can use CyberFuture`s custom styles for give some action to
@@ -37,67 +38,9 @@ function App() {
           <div className="paragraph">
             <img src={PrimaryButtons} alt="PrimaryButtons" width="100%" />
           </div>
-          <div className="codebox2">
-            <pre>
-              <code className="language-javascript">
-                <span className="import-color">import </span>
-                <span>&#65115;</span>
-                <span className="imported-components-color">Button</span>
-                <span>,</span>
-                <span className="imported-components-color">Card</span>
-                <span>&#65116;</span>
-                <span className="import-color">from </span>
-                <span>'Cyberfuture'</span>
-                <br></br>
-                <br></br>
-                <span>&lt;</span>
-                <span className="components-color">Button </span>
-                <span className="props-color">text</span>
-                <span>='ENABLED' </span>
-                <span className="props-color">variant</span>
-                <span>='Punk' </span>
-                <span>/</span>
-                <span>&gt;</span>
-                <br></br>
-                <span>&lt;</span>
-                <span className="components-color">Button </span>
-                <span className="props-color">text</span>
-                <span>='ENABLED' </span>
-                <span className="props-color">variant</span>
-                <span>='Rose' </span>
-                <span>/</span>
-                <span>&gt;</span>
-                <br></br>
-                <span>&lt;</span>
-                <span className="components-color">Button </span>
-                <span className="props-color">text</span>
-                <span>='ENABLED' </span>
-                <span className="props-color">variant</span>
-                <span>='OutlinedCyberSly' </span>
-                <span>/</span>
-                <span>&gt;</span>
-                <br></br>
-                <span>&lt;</span>
-                <span className="components-color">Button </span>
-                <span className="props-color">text</span>
-                <span>='ENABLED' </span>
-                <span className="props-color">variant</span>
-                <span>='Gold' </span>
-                <span>/</span>
-                <span>&gt;</span>
-                <br></br>
-                <span>&lt;</span>
-                <span className="components-color">Button </span>
-                <span className="props-color">text</span>
-                <span>='ENABLED' </span>
-                <span className="props-color">variant</span>
-                <span>='Matrix' </span>
-                <span>/</span>
-                <span>&gt;</span>
-                <br></br>
-              </code>
-            </pre>
-          </div>
+          <Codebox2 />
+          </section>
+          
           {/* <div className="paragraph">
           <h1>Cards</h1>
               <h2>You can use CyberFuture`s custom cards that provide a flexible and extensible content for containers with multiple variants and options.</h2>
