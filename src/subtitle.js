@@ -1,8 +1,8 @@
 
 const SubTitulo = () => (
   <>
-    <div className="subtitle">
-      <h1>CYBERFUTURE COMPONENTS</h1>
+    <div className="subtitle-box">
+      <div className="subtitle-text">CYBERFUTURE COMPONENTS</div>
     </div>
   </>
 );

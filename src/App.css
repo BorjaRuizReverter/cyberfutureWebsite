@@ -4,6 +4,7 @@
   overflow-x: hidden;
   color: white;
   font-family: 'Inter', sans-serif;
+  font-weight: 300;
 }
 
 .stars, .twinkling {
@@ -62,7 +63,7 @@
 .Ground {
   position: relative;
   width: 100vw;
-  top: -500px;
+  top: -1000px;
 }
 
 .Ground img{
@@ -71,8 +72,7 @@
   border: 3px solid red;
 }
 
-.subtitle {
-  font: normal bold 2vw Tahoma;
+.subtitle-box {
   position: relative;
   z-index: 2;
   margin: auto;
@@ -81,6 +81,10 @@
   border: 3px solid yellow;
   padding: 50px;
   text-align: center;
+}
+
+.subtitle-text{
+  font: normal bold 2vw Tahoma;
 }
 
 .codebox{
