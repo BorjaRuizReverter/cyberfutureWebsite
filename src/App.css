@@ -73,41 +73,33 @@
 }
 
 .subtitle-box {
-  position: relative;
-  z-index: 2;
-  margin: auto;
+  /* position: absolute;
   top: 200px;
   width: 70vw;
   border: 3px solid yellow;
   padding: 50px;
-  text-align: center;
+  text-align: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  border: 3px solid yellow;
 }
 
 .subtitle-text{
-  font: normal bold 2vw Tahoma;
+  font: normal bold 4vw Tahoma;
 }
 
 .codebox {
-  position: relative;
-  padding: 3%;
-  z-index: 2;
-  width: 70vw;
-  background-color: #252931;
-  border: 3px solid pink;
-  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  top: 250px;
-}
-
-.codebox2 {
-  position: relative;
-  padding: 3%;
-  z-index: 2;
-  width: 70vw;
+  margin-top: 5%;
   background-color: #252931;
+  width: 70vw;
   border: 3px solid pink;
-  overflow-y: hidden;
-  margin: auto;
 }
 
 .language-javascript{
@@ -135,7 +127,6 @@
   position: relative;
   border: 3px solid pink;
   width: 80vw;
-  z-index: 2;
   margin: auto;
 }
 
@@ -153,4 +144,8 @@
 
 #SecondSection{
   border: 3px solid green;
+}
+
+h1{
+  font: normal bold 3vw Inter;
 }

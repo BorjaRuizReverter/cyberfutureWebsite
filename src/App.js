@@ -1,10 +1,10 @@
 import React from "react";
 import SubTitulo from "./subtitle.js";
-import "./App.css";
 import PrimaryButtons from "./images/PrimaryButtons.png";
 import { TitleSvg } from "./images/titlesvg.jsx";
 import Codebox1 from "./codebox1";
 import Codebox2 from "./codebox2";
+import "./App.css";
 
 function App() {
   return (

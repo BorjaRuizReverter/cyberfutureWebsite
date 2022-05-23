@@ -2,7 +2,7 @@ import React from "react";
 
 const Codebox2 = () => {
   return (
-    <div className="codebox2">
+    <div className="codebox">
       <pre>
         <code className="language-javascript">
           <span className="import-color">import </span>
