@@ -40,13 +40,28 @@ function App() {
           </div>
           <Codebox2 />
           </section>
-          
+          <section id="ThirdSection">
+          <div className="paragraph">
+            <h2>
+              You can use CyberFuture`s custom cards. They provide a flexible and extensible container with multiple variants and options.
+            </h2>
+          </div>
+          <div className="paragraph">
+            <p></p>
+          </div>
+          <div className="paragraph">
+            <h1>Cards</h1>
+            <h2>Below there is some basic card. Cards have no fixed width, so they’ll fill the full width of its parent element. This is easily customized with our sizing options.</h2>
+          </div>
+          <div className="paragraph"></div>
+          <div className="paragraph">
+            <img src={PrimaryButtons} alt="PrimaryButtons" width="100%" />
+          </div>
+          <Codebox2 />
+          </section>
           {/* <div className="paragraph">
           <h1>Cards</h1>
               <h2>You can use CyberFuture`s custom cards that provide a flexible and extensible content for containers with multiple variants and options.</h2>
-          </div> */}
-          {/* <div className="Ground">
-            <img src={BG} alt="Ground" />
           </div> */}
         </div>
       </div>
