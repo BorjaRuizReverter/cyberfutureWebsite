@@ -59,10 +59,6 @@ function App() {
           </div>
           <Codebox2 />
           </section>
-          {/* <div className="paragraph">
-          <h1>Cards</h1>
-              <h2>You can use CyberFuture`s custom cards that provide a flexible and extensible content for containers with multiple variants and options.</h2>
-          </div> */}
         </div>
       </div>
     </>
