@@ -51,7 +51,7 @@ function App() {
           </div>
           <div className="paragraph">
             <h1>Cards</h1>
-            <h2>Below there is some basic card. Cards have no fixed width, so they’ll fill the full width of its parent element. This is easily customized with our sizing options.</h2>
+            <h2>Below there is some basic card. Cards have no fixed width, so they'll fill the full width of its parent element. This is easily customized with our sizing options.</h2>
           </div>
           <div className="paragraph"></div>
           <div className="paragraph">
