@@ -71,7 +71,7 @@ function App() {
           <section id="ThirdSection">
             <div className="paragraph">
               <h2>
-                You can use CyberFuture`s custom cards. They provide a flexible
+                You can use our CyberFuture`s custom cards. They provide a flexible
                 and extensible container with multiple variants and options.
               </h2>
             </div>
@@ -81,12 +81,12 @@ function App() {
             <div className="paragraph">
               <h1>Cards</h1>
               <h2>
-                Below there is some basic card. Cards have no fixed width, so
-                they'll fill the full width of its parent element. This is
+                Below there is some basic cards. Cards have no fixed width, so
+                they'll fill the full width of its parent element. This can be
                 easily customized with our sizing options.
               </h2>
             </div>
-            <div className="paragraph"></div>
+            
             <Flex>
               <Card
                 variant="matrix"
