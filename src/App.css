@@ -149,3 +149,7 @@
 h1{
   font: normal bold 3vw Inter;
 }
+
+.CardsContainer{
+  display: flex;
+}
