@@ -2,7 +2,6 @@
 
 *{
   overflow-x: hidden;
-  color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
 }
@@ -88,6 +87,7 @@
 
 .subtitle-text{
   font: normal bold 4vw Tahoma;
+  color: white;
 }
 
 .codebox {
@@ -100,6 +100,7 @@
   background-color: #252931;
   width: 70vw;
   border: 3px solid pink;
+  color: white;
 }
 
 .language-javascript{
@@ -128,6 +129,7 @@
   border: 3px solid pink;
   width: 80vw;
   margin: auto;
+  color: white;
 }
 
 .below-title{
@@ -136,6 +138,7 @@
   height: 100vh;
   background-image: url('./images/BG.svg');
   background-size: cover;
+  color: white;
 }
 
 #FirstSection{
