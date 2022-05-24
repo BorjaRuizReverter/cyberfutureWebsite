@@ -1,12 +1,11 @@
 import React from "react";
-import SubTitulo from "./subtitle.js";
-import PrimaryButtons from "./images/PrimaryButtons.png";
 import { TitleSvg } from "./images/titlesvg.jsx";
-import Codebox1 from "./codebox1";
-import Codebox2 from "./codebox2";
-import "./App.css";
+import SubTitulo from "./components/subtitle.js";
+import Codebox1 from "./components/codebox1";
+import Codebox2 from "./components/codebox2";
 import { Card, Button, CardCarousel } from "cyberfuture";
 import styled from "styled-components";
+import "./App.css";
 
 const Flex = styled.div`
   display: flex;
