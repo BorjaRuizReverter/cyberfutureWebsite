@@ -1,8 +1,14 @@
+import '../App.css'
+
+import React from 'react';
+
+const text = 'CYBERFUTURECOMPONENTS'
+
 
 const SubTitulo = () => (
   <>
     <div className="subtitle-box">
-      <div className="subtitle-text">CYBERFUTURE COMPONENTS</div>
+      <span data-text={text} className="subtitle-text">{text}</span>
     </div>
   </>
 );
