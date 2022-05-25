@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700;900&display=swap);
 
-*{
-  font-family: 'Inter', sans-serif;
+* {
+  font-family: "Inter", sans-serif;
   font-weight: 300;
 }
 
-.stars, .twinkling {
+.stars,
+.twinkling {
   position: relative;
   z-index: 0;
   top: 0;
@@ -17,45 +18,197 @@
 }
 
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background: #000
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
   border: 3px solid goldenrod;
 }
 
-.twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
+.twinkling {
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    top center;
+  -moz-animation: move-twink-back 200s linear infinite;
+  -ms-animation: move-twink-back 200s linear infinite;
+  -o-animation: move-twink-back 200s linear infinite;
+  -webkit-animation: move-twink-back 200s linear infinite;
+  animation: move-twink-back 200s linear infinite;
   border: 3px solid brown;
 }
 
 @keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
 }
 @-webkit-keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
 }
 @-moz-keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
 }
 @-ms-keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
 }
 
 .title {
   position: relative;
   z-index: 2;
   margin: auto;
-  border: 3px solid #73AD21;
+  border: 3px solid #73ad21;
   padding: 0px;
   width: 70vw;
   top: 50px;
+}
+
+@keyframes noise1 {
+  0% {
+    clip-path: inset(6% 0 42% 0);
+  }
+  5% {
+    clip-path: inset(59% 0 29% 0);
+  }
+  10% {
+    clip-path: inset(93% 0 4% 0);
+  }
+  15% {
+    clip-path: inset(100% 0 1% 0);
+  }
+  20% {
+    clip-path: inset(85% 0 15% 0);
+  }
+  25% {
+    clip-path: inset(50% 0 18% 0);
+  }
+  30% {
+    clip-path: inset(67% 0 16% 0);
+  }
+  35% {
+    clip-path: inset(43% 0 48% 0);
+  }
+  40% {
+    clip-path: inset(37% 0 9% 0);
+  }
+  45% {
+    clip-path: inset(91% 0 7% 0);
+  }
+  50% {
+    clip-path: inset(2% 0 72% 0);
+  }
+  55% {
+    clip-path: inset(17% 0 17% 0);
+  }
+  60% {
+    clip-path: inset(13% 0 85% 0);
+  }
+  65% {
+    clip-path: inset(18% 0 38% 0);
+  }
+  70% {
+    clip-path: inset(12% 0 88% 0);
+  }
+  75% {
+    clip-path: inset(42% 0 31% 0);
+  }
+  80% {
+    clip-path: inset(95% 0 2% 0);
+  }
+  85% {
+    clip-path: inset(59% 0 8% 0);
+  }
+  90% {
+    clip-path: inset(24% 0 44% 0);
+  }
+  95% {
+    clip-path: inset(57% 0 5% 0);
+  }
+  100% {
+    clip-path: inset(93% 0 3% 0);
+  }
+}
+
+@keyframes noise2 {
+  0% {
+    clip-path: inset(38% 0 58% 0);
+ }
+  5% {
+    clip-path: inset(29% 0 27% 0);
+ }
+  10% {
+    clip-path: inset(56% 0 21% 0);
+ }
+  15% {
+    clip-path: inset(37% 0 19% 0);
+ }
+  20% {
+    clip-path: inset(14% 0 30% 0);
+ }
+  25% {
+    clip-path: inset(83% 0 18% 0);
+ }
+  30% {
+    clip-path: inset(31% 0 66% 0);
+ }
+  35% {
+    clip-path: inset(91% 0 5% 0);
+ }
+  40% {
+    clip-path: inset(96% 0 2% 0);
+ }
+  45% {
+    clip-path: inset(77% 0 5% 0);
+ }
+  50% {
+    clip-path: inset(1% 0 67% 0);
+ }
+  55% {
+    clip-path: inset(74% 0 7% 0);
+ }
+  60% {
+    clip-path: inset(57% 0 27% 0);
+ }
+  65% {
+    clip-path: inset(51% 0 29% 0);
+ }
+  70% {
+    clip-path: inset(1% 0 60% 0);
+ }
+  75% {
+    clip-path: inset(39% 0 35% 0);
+ }
+  80% {
+    clip-path: inset(53% 0 6% 0);
+ }
+  85% {
+    clip-path: inset(63% 0 17% 0);
+ }
+  90% {
+    clip-path: inset(19% 0 1% 0);
+ }
+  95% {
+    clip-path: inset(21% 0 10% 0);
+ }
+  100% {
+    clip-path: inset(21% 0 58% 0);
+ }
 }
 
 .Ground {
@@ -64,7 +217,7 @@
   top: -1000px;
 }
 
-.Ground img{
+.Ground img {
   position: static;
   width: 100vw;
   border: 3px solid red;
@@ -84,9 +237,44 @@
   border: 3px solid yellow;
 }
 
-.subtitle-text{
+.subtitle-text {
   font: normal bold 4vw Tahoma;
   color: white;
+}
+.subtitle-text {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  transition: 1s;
+  letter-spacing: 0.3em;
+  transform: skewX(20deg);
+}
+
+.subtitle-text:hover::after {
+  content: attr(data-text);
+  transform: skewX(20deg);
+  position: absolute;
+  left: 10px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  animation: noise1 2s infinite linear alternate-reverse;
+}
+
+.subtitle-text:hover::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 10px;
+  text-shadow: 3px 0 red;
+  top: 5px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  animation: noise2 15s infinite linear alternate-reverse;
 }
 
 .codebox {
@@ -103,28 +291,28 @@
   color: white;
 }
 
-.language-javascript{
+.language-javascript {
   position: relative;
   font-size: 2vw;
 }
 
-.import-color{
+.import-color {
   color: rgb(250, 129, 129);
 }
 
-.imported-components-color{
+.imported-components-color {
   color: darkorange;
 }
 
-.components-color{
+.components-color {
   color: darkred;
 }
 
-.props-color{
+.props-color {
   color: darkgoldenrod;
 }
 
-.paragraph{
+.paragraph {
   position: relative;
   border: 3px solid pink;
   width: 80vw;
@@ -132,27 +320,27 @@
   color: white;
 }
 
-.below-title{
+.below-title {
   border: 3px solid pink;
   width: 100%;
   height: 100vh;
-  background-image: url('./images/BG.svg');
+  background-image: url("./images/BG.svg");
   background-size: cover;
   color: white;
 }
 
-#FirstSection{
+#FirstSection {
   border: 3px solid green;
 }
 
-#SecondSection{
+#SecondSection {
   border: 3px solid green;
 }
 
-h1{
+h1 {
   font: normal bold 3vw Inter;
 }
 
-.CardsContainer{
+.CardsContainer {
   display: flex;
 }
