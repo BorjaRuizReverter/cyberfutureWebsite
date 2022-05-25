@@ -112,7 +112,7 @@ function App() {
                 end={<Button text="button" variant="Matrix" />}
               ></Card>
             </Flex>
-            {/* <Codebox2 /> */}
+            <Codebox2 />
           </section>
         </div>
       </div>
