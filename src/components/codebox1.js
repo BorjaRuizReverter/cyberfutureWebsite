@@ -1,7 +1,7 @@
 import React from "react";
 
 const styles = {
-  marginTop: '6%'
+  marginTop: '2%'
 }
 
 const Codebox1 = () => {

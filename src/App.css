@@ -68,12 +68,9 @@
 }
 
 .title {
-  position: relative;
-  z-index: 2;
   margin: auto;
-  padding: 0px;
+  padding: 5%;
   width: 70vw;
-  top: 50px;
 }
 
 @keyframes noise1 {
@@ -303,9 +300,8 @@
 }
 
 .below-title {
-  margin-top: 1%;
+  margin-top: -2%;
   width: 100%;
-  height: 100vh;
   background-image: url("./images/BG.svg");
   background-size: cover;
   border: 3px solid rgba(0, 0, 0, 1);/*gambiarra */
@@ -315,6 +311,23 @@ h1 {
   font: normal bold 3vw Inter;
 }
 
+h2 {
+  font: normal 3vw Inter;
+}
+
 .CardsContainer {
   display: flex;
+}
+
+#FirstSection {
+  height: 100vh;
+}
+
+#SecondSection{
+  height: 100vh;
+}
+
+#ThirdSection{
+  border: 2px  solid white;
+  height: 100vh;
 }

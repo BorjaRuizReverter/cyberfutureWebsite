@@ -32,21 +32,11 @@ function App() {
           </section>
           <section id="SecondSection">
             <div className="paragraph">
-              <h2>
-                You can use CyberFuture`s custom styles for give some action to
-                your boring components.
-              </h2>
+              <h1>Primary buttons</h1>
+              <h2>You can use CyberFuture`s custom styles for give some action to
+                your boring components.</h2>
             </div>
             <div className="paragraph">
-              <p></p>
-            </div>
-            <div className="paragraph">
-              <h1>Buttons</h1>
-              <h2>Primary buttons</h2>
-            </div>
-            <div className="paragraph"></div>
-            <div className="paragraph">
-              
               <Flex>
                 <Button
                   outline
@@ -69,15 +59,6 @@ function App() {
           </section>
           <section id="ThirdSection">
             <div className="paragraph">
-              <h2>
-                You can use our CyberFuture`s custom cards. They provide a flexible
-                and extensible container with multiple variants and options.
-              </h2>
-            </div>
-            <div className="paragraph">
-              <p></p>
-            </div>
-            <div className="paragraph">
               <h1>Cards</h1>
               <h2>
                 Below there is some basic cards. Cards have no fixed width, so
@@ -85,7 +66,6 @@ function App() {
                 easily customized with our sizing options.
               </h2>
             </div>
-            
             <Flex>
               <Card
                 variant="matrix"
@@ -99,12 +79,6 @@ function App() {
                 body="some content"
                 end={<Button text="button" variant="Rose" />}
               ></CardCarousel>
-              <Card
-                variant="rose"
-                title="Card Title"
-                body="some content"
-                end={<Button text="button" variant="Gold" />}
-              ></Card>
               <Card
                 variant="matrix"
                 title="Card Title"
