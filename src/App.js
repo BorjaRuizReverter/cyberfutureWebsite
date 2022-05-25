@@ -14,6 +14,10 @@ const Flex = styled.div`
   gap: 5%;
   position: relative;
   margin: 0px auto;
+  justify-content: space-around;
+  justify-content: space-between;
+  flex: 1;
+  height: 5%
 `;
 
 function App() {
@@ -87,6 +91,11 @@ function App() {
               ></Card>
             </Flex>
             <Codebox2 />
+          </section>
+          <section id="Footer">
+            <div className="paragraph">
+            <h1 style={{color:'black'}}>Cards</h1>
+            </div>
           </section>
         </div>
       </div>
