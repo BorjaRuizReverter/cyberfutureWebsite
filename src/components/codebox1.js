@@ -1,8 +1,12 @@
 import React from "react";
 
+const styles = {
+  marginTop: '2%'
+}
+
 const Codebox1 = () => {
   return (
-    <div className="codebox">
+    <div className="codebox" style={styles}>
       <pre>
         <code className="language-javascript">
           <span className="import-color">import </span>
