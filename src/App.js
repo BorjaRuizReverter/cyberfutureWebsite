@@ -5,7 +5,12 @@ import Codebox1 from "./components/codebox1";
 import Codebox2 from "./components/codebox2";
 import { Card, Button, CardCarousel } from "cyberfuture";
 import styled from "styled-components";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
+import { Logo } from "./images/logolane.jsx";
+import horlogo from "./images/hor-github-logo.png";
+import borlogo from "./images/bor-github-logo.png";
 
 const Flex = styled.div`
   display: flex;
@@ -17,7 +22,7 @@ const Flex = styled.div`
   justify-content: space-around;
   justify-content: space-between;
   flex: 1;
-  height: 5%
+  height: 5%;
 `;
 
 function App() {
@@ -35,19 +40,16 @@ function App() {
             </div>
           </section>
           <section id="SecondSection">
-            <div className="paragraph">
+            <div className="paragraph mt-5">
               <h1>Primary buttons</h1>
-              <h2>You can use CyberFuture`s custom styles for give some action to
-                your boring components.</h2>
+              <h2>
+                You can use CyberFuture`s custom styles for give some action to
+                your boring components.
+              </h2>
             </div>
             <div className="paragraph">
               <Flex>
-                <Button
-                  outline
-                  text="BUTTON"
-                  variant="Matrix"
-                  color="matrix"
-                />
+                <Button outline text="BUTTON" variant="Matrix" color="matrix" />
                 <Button
                   text="BUTTON"
                   variant="OutlinedCyberRose"
@@ -93,9 +95,59 @@ function App() {
             <Codebox2 />
           </section>
           <section id="Footer">
-            <div className="paragraph">
-            <h1 style={{color:'black'}}>Cards</h1>
-            </div>
+            <Container fluid className="mb-2">
+              <Row>
+                <Col
+                  style={{
+                    color: "white",
+                    display: "flex",
+                    alignItems: "flex-end",
+                    flexDirection: "row-reverse",
+                    alignItems: "center"
+                  }}
+                >
+                  <a href="https://github.com/borjaruizreverter" target="_blank" style={{width: '5%'}}>
+                    <img
+                      src={borlogo}
+                      alt="borlogo"
+                      style={{width: '15%', padding: '10px', borderRadius: "50px", width: "100%"}}
+                    />
+                  </a>
+                  <a href="https://github.com/horberlan" target="_blank" style={{width: '5%'}}>
+                    <img
+                      src={horlogo}
+                      alt="horlogo"
+                      style={{width: '15%', padding: '10px', borderRadius: "50px", width: "100%"}}
+                    />
+                  </a>
+                  Mantained by
+                </Col>
+              </Row>
+              <Row>
+                <Col
+                  style={{
+                    color: "white",
+                    display: "flex",
+                    alignItems: "flex-end",
+                  }}
+                >
+                  All rights reserved 2022 ©
+                </Col>
+                <Col
+                  style={{
+                    color: "white",
+                    alignItems: "flex-end",
+                    display: "flex",
+                    flexDirection: "row-reverse",
+                  }}
+                >
+                  <a href="https://www.laneartdesign.studio" target="_blank" style={{}}>
+                  <Logo />
+                  </a>
+                  
+                </Col>
+              </Row>
+            </Container>
           </section>
         </div>
       </div>
