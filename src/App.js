@@ -4,13 +4,10 @@ import SubTitulo from "./components/subtitle.js";
 import Codebox from "./components/codebox";
 import { Card, Button, CardCarousel } from "cyberfuture";
 import styled from "styled-components";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
-import "./App.css";
-import { Logo } from "./images/logolane.jsx";
-import horlogo from "./images/hor-github-logo.png";
-import borlogo from "./images/bor-github-logo.png";
 import LiveProv from "./components/liveprovider.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Footer from "./components/footer.js";
 
 const Flex = styled.div`
   display: flex;
@@ -62,7 +59,9 @@ function App() {
               </Flex>
             </div>
             <div className="paragraph mt-5">
-              <h2>You can play with the variants available in the codebox below!</h2>
+              <h2>
+                You can play with the variants available in the codebox below!
+              </h2>
               <li>Matrix</li>
               <li>Gold</li>
               <li>Rose</li>
@@ -102,7 +101,9 @@ function App() {
               ></Card>
             </Flex>
             <div className="paragraph mt-5">
-            <h2>You can play with the following options in the codebox below!</h2>
+              <h2>
+                You can play with the following options in the codebox below!
+              </h2>
               <li>Matrix</li>
               <li>Gold</li>
               <li>Rose</li>
@@ -112,80 +113,7 @@ function App() {
             </div>
           </section>
           <section id="Footer">
-            <Container fluid className="mb-2">
-              <Row>
-                <Col
-                  style={{
-                    color: "white",
-                    display: "flex",
-                    alignItems: "flex-end",
-                    flexDirection: "row-reverse",
-                    alignItems: "center",
-                  }}
-                >
-                  <a
-                    href="https://github.com/borjaruizreverter"
-                    target="_blank"
-                    style={{ width: "5%" }}
-                  >
-                    <img
-                      src={borlogo}
-                      alt="borlogo"
-                      style={{
-                        width: "15%",
-                        padding: "10px",
-                        borderRadius: "50px",
-                        width: "100%",
-                      }}
-                    />
-                  </a>
-                  <a
-                    href="https://github.com/horberlan"
-                    target="_blank"
-                    style={{ width: "5%" }}
-                  >
-                    <img
-                      src={horlogo}
-                      alt="horlogo"
-                      style={{
-                        width: "15%",
-                        padding: "10px",
-                        borderRadius: "50px",
-                        width: "100%",
-                      }}
-                    />
-                  </a>
-                  Mantained by
-                </Col>
-              </Row>
-              <Row>
-                <Col
-                  style={{
-                    color: "white",
-                    display: "flex",
-                    alignItems: "flex-end",
-                  }}
-                >
-                  All rights reserved 2022 ©
-                </Col>
-                <Col
-                  style={{
-                    color: "white",
-                    alignItems: "flex-end",
-                    display: "flex",
-                    flexDirection: "row-reverse",
-                  }}
-                >
-                  <a
-                    href="https://www.laneartdesign.studio"
-                    target="_blank"
-                    style={{}}
-                  >
-                    <Logo />
-                  </a>
-                </Col>
-              </Row>
-            </Container>
+            <Footer />
           </section>
         </div>
       </div>
