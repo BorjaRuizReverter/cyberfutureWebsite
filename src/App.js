@@ -1,8 +1,7 @@
 import React from "react";
 import { TitleSvg } from "./images/titlesvg.jsx";
 import SubTitulo from "./components/subtitle.js";
-import Codebox1 from "./components/codebox1";
-import Codebox2 from "./components/codebox2";
+import Codebox from "./components/codebox";
 import { Card, Button, CardCarousel } from "cyberfuture";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +10,7 @@ import "./App.css";
 import { Logo } from "./images/logolane.jsx";
 import horlogo from "./images/hor-github-logo.png";
 import borlogo from "./images/bor-github-logo.png";
+import LiveProv from "./components/liveprovider.js";
 
 const Flex = styled.div`
   display: flex;
@@ -36,15 +36,15 @@ function App() {
             </div>
             <div className="below-title">
               <SubTitulo />
-              <Codebox1 />
+              <Codebox />
             </div>
           </section>
           <section id="SecondSection">
             <div className="paragraph mt-5">
               <h1>Primary buttons</h1>
               <h2>
-                You can use CyberFuture`s custom styles for give some action to
-                your boring components.
+                You can use CyberFuture`s custom styles to give some action to
+                your boring buttons.
               </h2>
             </div>
             <div className="paragraph">
@@ -61,7 +61,16 @@ function App() {
                 <Button text="BUTTON" variant="OutlinedCyberSly" />
               </Flex>
             </div>
-            <Codebox2 />
+            <div className="paragraph mt-5">
+              <h2>You can play with the variants available in the codebox below!</h2>
+              <li>Matrix</li>
+              <li>Gold</li>
+              <li>Rose</li>
+              <li>Punk</li>
+              <li>OutlinedCyberRose</li>
+              <li>OutlinedCyberSly</li>
+            </div>
+            <LiveProv />
           </section>
           <section id="ThirdSection">
             <div className="paragraph">
@@ -92,7 +101,15 @@ function App() {
                 end={<Button text="button" variant="Matrix" />}
               ></Card>
             </Flex>
-            <Codebox2 />
+            <div className="paragraph mt-5">
+            <h2>You can play with the following options in the codebox below!</h2>
+              <li>Matrix</li>
+              <li>Gold</li>
+              <li>Rose</li>
+              <li>Punk</li>
+              <li>OutlinedCyberRose</li>
+              <li>OutlinedCyberSly</li>
+            </div>
           </section>
           <section id="Footer">
             <Container fluid className="mb-2">
@@ -103,21 +120,39 @@ function App() {
                     display: "flex",
                     alignItems: "flex-end",
                     flexDirection: "row-reverse",
-                    alignItems: "center"
+                    alignItems: "center",
                   }}
                 >
-                  <a href="https://github.com/borjaruizreverter" target="_blank" style={{width: '5%'}}>
+                  <a
+                    href="https://github.com/borjaruizreverter"
+                    target="_blank"
+                    style={{ width: "5%" }}
+                  >
                     <img
                       src={borlogo}
                       alt="borlogo"
-                      style={{width: '15%', padding: '10px', borderRadius: "50px", width: "100%"}}
+                      style={{
+                        width: "15%",
+                        padding: "10px",
+                        borderRadius: "50px",
+                        width: "100%",
+                      }}
                     />
                   </a>
-                  <a href="https://github.com/horberlan" target="_blank" style={{width: '5%'}}>
+                  <a
+                    href="https://github.com/horberlan"
+                    target="_blank"
+                    style={{ width: "5%" }}
+                  >
                     <img
                       src={horlogo}
                       alt="horlogo"
-                      style={{width: '15%', padding: '10px', borderRadius: "50px", width: "100%"}}
+                      style={{
+                        width: "15%",
+                        padding: "10px",
+                        borderRadius: "50px",
+                        width: "100%",
+                      }}
                     />
                   </a>
                   Mantained by
@@ -141,10 +176,13 @@ function App() {
                     flexDirection: "row-reverse",
                   }}
                 >
-                  <a href="https://www.laneartdesign.studio" target="_blank" style={{}}>
-                  <Logo />
+                  <a
+                    href="https://www.laneartdesign.studio"
+                    target="_blank"
+                    style={{}}
+                  >
+                    <Logo />
                   </a>
-                  
                 </Col>
               </Row>
             </Container>
