@@ -11,7 +11,6 @@ export default function Footer() {
             style={{
               color: "white",
               display: "flex",
-              alignItems: "flex-end",
               flexDirection: "row-reverse",
               alignItems: "center",
             }}
@@ -19,13 +18,13 @@ export default function Footer() {
             <a
               href="https://github.com/borjaruizreverter"
               target="_blank"
+              rel="noreferrer"
               style={{ width: "5%" }}
             >
               <img
                 src={borlogo}
                 alt="borlogo"
                 style={{
-                  width: "15%",
                   padding: "10px",
                   borderRadius: "50px",
                   width: "100%",
@@ -35,13 +34,13 @@ export default function Footer() {
             <a
               href="https://github.com/horberlan"
               target="_blank"
+              rel="noreferrer"
               style={{ width: "5%" }}
             >
               <img
                 src={horlogo}
                 alt="horlogo"
                 style={{
-                  width: "15%",
                   padding: "10px",
                   borderRadius: "50px",
                   width: "100%",
@@ -72,6 +71,7 @@ export default function Footer() {
             <a
               href="https://www.laneartdesign.studio"
               target="_blank"
+              rel="noreferrer"
               style={{}}
             >
               <Logo />
