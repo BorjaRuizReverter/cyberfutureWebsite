@@ -18,7 +18,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 17"
                   d="M98.859-38.612l3.281-28.38A67.149,67.149,0,0,0,74.914-72.4c-93.442,0-93.63,140.163,0,140.163a88.042,88.042,0,0,0,30.31-5.792L101.559,33.4a59.208,59.208,0,0,1-26.645,6.177c-54.632,0-54.632-84.181,0-84.181A47.024,47.024,0,0,1,98.859-38.612Zm0,0"
                   transform="translate(-4.762 72.398)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -35,7 +35,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 18"
                   d="M48.672,66.544H76.087V4.377L124.354-71.5H90.567L62.376-24,34.192-71.5H.6L48.672,4.377Zm0,0"
                   transform="translate(-0.602 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -52,7 +52,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 19"
                   d="M8,66.634H62.64c22.391,0,40.733-18.341,40.733-41.51A33.544,33.544,0,0,0,89.089-2.485c8.688-5.98,12.353-16.8,12.738-27.218C102.407-54.033,87.158-71.6,62.64-71.6H8ZM35.8-43.987H60.317c7.919,0,12.745,6.177,12.745,13.9,0,7.527-4.827,13.9-12.745,13.9H35.8Zm0,55.409H60.317a13.563,13.563,0,0,1,13.907,13.7,13.725,13.725,0,0,1-13.907,13.9H35.8Zm0,0"
                   transform="translate(-8 71.598)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -69,7 +69,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 20"
                   d="M79.435,66.544V38.933H35.61v-27.6H71.9V-16.28H35.61V-43.89H77.12V-71.5H8V66.544Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -86,7 +86,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 21"
                   d="M76.728,66.544H108L75.958,9.588C116.5-2.184,111.676-71.5,62.444-71.5H8V66.544H35.61V13.834H48.929ZM35.61-13V-43.89H59.932c18.726,0,18.726,30.891,0,30.891Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -103,7 +103,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 22"
                   d="M76.924-43.89V-71.5H8V66.544H35.61V11.331H70.747V-16.28H35.61V-43.89Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -120,7 +120,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 23"
                   d="M107.409,18.473V-71.5H79.995V18.277c0,28.96-44.79,28.96-44.79,0V-71.5H7.6V18.473C7.6,84.116,107.409,84.116,107.409,18.473Zm0,0"
                   transform="translate(-7.602 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -137,7 +137,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 24"
                   d="M63.97,66.449V-43.984H98.338V-71.4H2v27.414H36.368V66.449Zm0,0"
                   transform="translate(-2 71.398)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -154,7 +154,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 25"
                   d="M107.409,18.473V-71.5H79.995V18.277c0,28.96-44.79,28.96-44.79,0V-71.5H7.6V18.473C7.6,84.116,107.409,84.116,107.409,18.473Zm0,0"
                   transform="translate(-7.602 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -171,7 +171,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 26"
                   d="M76.728,66.544H108L75.958,9.588C116.5-2.184,111.676-71.5,62.444-71.5H8V66.544H35.61V13.834H48.929ZM35.61-13V-43.89H59.932c18.726,0,18.726,30.891,0,30.891Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -188,7 +188,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 27"
                   d="M79.435,66.544V38.933H35.61v-27.6H71.9V-16.28H35.61V-43.89H77.12V-71.5H8V66.544Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="#f0f"
+                  fill="#65ff3f"
                 />
               </g>
             </g>
@@ -203,7 +203,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 28"
                   d="M98.859-38.612l3.281-28.38A67.149,67.149,0,0,0,74.914-72.4c-93.442,0-93.63,140.163,0,140.163a88.042,88.042,0,0,0,30.31-5.792L101.559,33.4a59.208,59.208,0,0,1-26.645,6.177c-54.632,0-54.632-84.181,0-84.181A47.024,47.024,0,0,1,98.859-38.612Zm0,0"
                   transform="translate(-4.762 72.398)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -220,7 +220,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 29"
                   d="M48.672,66.544H76.087V4.377L124.354-71.5H90.567L62.376-24,34.192-71.5H.6L48.672,4.377Zm0,0"
                   transform="translate(-0.602 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -237,7 +237,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 30"
                   d="M8,66.634H62.64c22.391,0,40.733-18.341,40.733-41.51A33.544,33.544,0,0,0,89.089-2.485c8.688-5.98,12.353-16.8,12.738-27.218C102.407-54.033,87.158-71.6,62.64-71.6H8ZM35.8-43.987H60.317c7.919,0,12.745,6.177,12.745,13.9,0,7.527-4.827,13.9-12.745,13.9H35.8Zm0,55.409H60.317a13.563,13.563,0,0,1,13.907,13.7,13.725,13.725,0,0,1-13.907,13.9H35.8Zm0,0"
                   transform="translate(-8 71.598)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -254,7 +254,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 31"
                   d="M79.435,66.544V38.933H35.61v-27.6H71.9V-16.28H35.61V-43.89H77.12V-71.5H8V66.544Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -271,7 +271,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 32"
                   d="M76.728,66.544H108L75.958,9.588C116.5-2.184,111.676-71.5,62.444-71.5H8V66.544H35.61V13.834H48.929ZM35.61-13V-43.89H59.932c18.726,0,18.726,30.891,0,30.891Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -288,7 +288,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 33"
                   d="M76.924-43.89V-71.5H8V66.544H35.61V11.331H70.747V-16.28H35.61V-43.89Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -305,7 +305,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 34"
                   d="M107.409,18.473V-71.5H79.995V18.277c0,28.96-44.79,28.96-44.79,0V-71.5H7.6V18.473C7.6,84.116,107.409,84.116,107.409,18.473Zm0,0"
                   transform="translate(-7.602 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -322,7 +322,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 35"
                   d="M63.97,66.449V-43.984H98.338V-71.4H2v27.414H36.368V66.449Zm0,0"
                   transform="translate(-2 71.398)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -339,7 +339,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 36"
                   d="M107.409,18.473V-71.5H79.995V18.277c0,28.96-44.79,28.96-44.79,0V-71.5H7.6V18.473C7.6,84.116,107.409,84.116,107.409,18.473Zm0,0"
                   transform="translate(-7.602 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -356,7 +356,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 37"
                   d="M76.728,66.544H108L75.958,9.588C116.5-2.184,111.676-71.5,62.444-71.5H8V66.544H35.61V13.834H48.929ZM35.61-13V-43.89H59.932c18.726,0,18.726,30.891,0,30.891Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
@@ -373,7 +373,7 @@ export const TitleSvg = ({width, height}) => {
                   dataname="Path 38"
                   d="M79.435,66.544V38.933H35.61v-27.6H71.9V-16.28H35.61V-43.89H77.12V-71.5H8V66.544Zm0,0"
                   transform="translate(-8 71.5)"
-                  fill="aqua"
+                  fill="#FF0000"
                 />
               </g>
             </g>
