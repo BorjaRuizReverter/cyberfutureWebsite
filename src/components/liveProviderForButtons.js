@@ -7,7 +7,7 @@ const cfcode = `
   <Button text="CyberFuture" variant="Matrix"/>
 `;
 
-export default function LiveProv() {
+export default function LiveProvBut() {
     return (
       <div className="codebox">
         <LiveProvider code={cfcode} scope={cfscope}>

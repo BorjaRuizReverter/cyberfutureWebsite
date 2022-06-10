@@ -4,7 +4,8 @@ import SubTitulo from "./components/subtitle.js";
 import Codebox from "./components/codebox";
 import { Card, Button, CardCarousel } from "cyberfuture";
 import styled from "styled-components";
-import LiveProv from "./components/liveprovider.js";
+import LiveProvBut from "./components/liveProviderForButtons.js";
+import LiveProvCard from "./components/liveProviderForCards.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/footer.js";
@@ -69,7 +70,7 @@ function App() {
               <li>OutlinedCyberRose</li>
               <li>OutlinedCyberSly</li>
             </div>
-            <LiveProv />
+            <LiveProvBut />
           </section>
           <section id="ThirdSection">
             <div className="paragraph">
@@ -111,6 +112,7 @@ function App() {
               <li>OutlinedCyberRose</li>
               <li>OutlinedCyberSly</li>
             </div>
+            <LiveProvCard />
           </section>
           <section id="Footer">
             <Footer />
