@@ -9,7 +9,7 @@ const cfscopeCard = { Card, Button };
 
 // const cfcode = `
 // <Card
-// variant="matrix"
+// variant="Matrix"
 // title="Card Title"
 // bodyvar.text
 // ></Card>
@@ -17,9 +17,10 @@ const cfscopeCard = { Card, Button };
 
 const cfcode = `
 <Card
-variant="matrix"
+variant="Matrix"
 title="Card Title"
 end=<Button text="button" variant="Matrix" />
+body=<div>content</div>
 ></Card>
 `;
 

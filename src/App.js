@@ -68,7 +68,7 @@ function App() {
               <li>Rose</li>
               <li>Punk</li>
               <li>OutlinedCyberRose</li>
-              <li>OutlinedCyberSly</li>
+              <li>OutlinedCyberSky</li>
             </div>
             <LiveProvBut />
           </section>
@@ -83,19 +83,19 @@ function App() {
             </div>
             <Flex>
               <Card
-                variant="matrix"
+                variant="Matrix"
                 title="Card Title"
                 body="some content"
                 end={<Button text="button" variant="Punk" />}
               ></Card>
               <CardCarousel
-                variant="rose"
+                variant="Rose"
                 title="Card Title"
                 body="some content"
                 end={<Button text="button" variant="Rose" />}
               ></CardCarousel>
               <Card
-                variant="matrix"
+                variant="Matrix"
                 title="Card Title"
                 body={<div>content</div>}
                 end={<Button text="button" variant="Matrix" />}
@@ -103,14 +103,13 @@ function App() {
             </Flex>
             <div className="paragraph mt-5">
               <h2>
-                You can play with the following options in the codebox below!
+                You can play with the available options for our Cards!
               </h2>
               <li>Matrix</li>
               <li>Gold</li>
               <li>Rose</li>
               <li>Punk</li>
-              <li>OutlinedCyberRose</li>
-              <li>OutlinedCyberSly</li>
+              
             </div>
             <LiveProvCard />
           </section>
