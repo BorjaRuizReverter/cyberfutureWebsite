@@ -158,6 +158,10 @@ h2 {
   font: normal 3vw Inter;
 }
 
+li {
+  font: normal 2vw Inter;
+}
+
 .CardsContainer {
   display: flex;
 }

@@ -61,7 +61,7 @@ function App() {
             </div>
             <div className="paragraph mt-5">
               <h2>
-                You can play with the variants available in the codebox below!
+                You can play with the available variants in the codebox below!
               </h2>
               <li>Matrix</li>
               <li>Gold</li>
@@ -76,9 +76,7 @@ function App() {
             <div className="paragraph">
               <h1>Cards</h1>
               <h2>
-                Below there is some basic cards. Cards have no fixed width, so
-                they'll fill the full width of its parent element. This can be
-                easily customized with our sizing options.
+                Below there is some of our cards.
               </h2>
             </div>
             <Flex>
@@ -103,13 +101,15 @@ function App() {
             </Flex>
             <div className="paragraph mt-5">
               <h2>
-                You can play with the available options for our Cards!
+                You can play with the available variants for our cards...
               </h2>
               <li>Matrix</li>
               <li>Gold</li>
               <li>Rose</li>
               <li>Punk</li>
-              
+              <h2>
+                and add your button and texts inside as desire.
+              </h2>
             </div>
             <LiveProvCard />
           </section>
