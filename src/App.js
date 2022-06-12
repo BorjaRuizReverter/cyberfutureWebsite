@@ -45,7 +45,7 @@ function App() {
                 your boring buttons.
               </h2>
             </div>
-            <div className="paragraph">
+            <div className="paragraph mt-5">
               <Flex>
                 <Button outline text="BUTTON" variant="Matrix" color="matrix" />
                 <Button
