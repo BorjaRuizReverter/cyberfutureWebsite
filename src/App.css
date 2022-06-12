@@ -128,19 +128,15 @@ body::-webkit-scrollbar {
 }
 
 .import-color {
-  color: rgb(250, 129, 129);
-}
-
-.imported-components-color {
-  color: darkorange;
+  color: rgb(184,132,141);
 }
 
 .components-color {
-  color: darkred;
+  color: rgb(184,132,141);
 }
 
 .props-color {
-  color: darkgoldenrod;
+  color: rgb(173,204,78);
 }
 
 .paragraph {
