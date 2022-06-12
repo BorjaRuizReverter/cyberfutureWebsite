@@ -1,5 +1,5 @@
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
-import { Card, Button, CardCarousel } from "cyberfuture";
+import { Card, Button } from "cyberfuture";
 
 // const bodyvar = {text: 'body={<div>content</div>}'};
 
