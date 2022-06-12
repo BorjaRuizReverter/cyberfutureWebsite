@@ -33,7 +33,7 @@ const Codebox1 = () => {
           <span className="props-color">title</span>
           <span>='Card Title' </span>
           <span className="props-color">variant</span>
-          <span>='Matrix'</span>
+          <span>='Cyber' </span>
           <span>/</span>
           <span>&gt;</span>
         </code>
