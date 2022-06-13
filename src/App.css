@@ -22,13 +22,13 @@ body::-webkit-scrollbar {
 
 .stars {
   background: #000
-    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    url(./images/stars.png) repeat top
     center;
 }
 
 .twinkling {
   background: transparent
-    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    url(./images/twinkling.png) repeat
     top center;
   -moz-animation: move-twink-back 200s linear infinite;
   -ms-animation: move-twink-back 200s linear infinite;
