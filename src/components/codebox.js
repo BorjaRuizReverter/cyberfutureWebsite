@@ -1,10 +1,10 @@
 import React from "react";
 
 const styles = {
-  marginTop: '2%'
-}
+  marginTop: "2%",
+};
 
-const Codebox1 = () => {
+const Codebox = () => {
   return (
     <div className="codebox" style={styles}>
       <pre>
@@ -42,4 +42,4 @@ const Codebox1 = () => {
   );
 };
 
-export default Codebox1;
+export default Codebox;

@@ -1,14 +1,14 @@
 import React from "react";
 import { TitleSvg } from "./images/titlesvg.jsx";
 import SubTitulo from "./components/subtitle.js";
-import Codebox from "./components/codebox";
+import Codebox from "./components/codebox.js";
 import { Card, Button, CardCarousel } from "cyberfuture";
 import styled from "styled-components";
 import LiveProvBut from "./components/liveProviderForButtons.js";
 import LiveProvCard from "./components/liveProviderForCards.js";
+import Footer from "./components/footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Footer from "./components/footer.js";
 
 const Flex = styled.div`
   display: flex;

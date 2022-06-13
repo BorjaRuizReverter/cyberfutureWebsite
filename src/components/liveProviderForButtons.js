@@ -8,13 +8,13 @@ const cfcode = `
 `;
 
 export default function LiveProvBut() {
-    return (
-      <div className="codebox">
-        <LiveProvider code={cfcode} scope={cfscope}>
-          <LiveEditor />
-          <LiveError />
-          <LivePreview />
-        </LiveProvider>
-      </div>
-    );
-  }
+  return (
+    <div className="codebox">
+      <LiveProvider code={cfcode} scope={cfscope}>
+        <LiveEditor />
+        <LiveError />
+        <LivePreview />
+      </LiveProvider>
+    </div>
+  );
+}
