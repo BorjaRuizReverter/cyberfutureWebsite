@@ -3,6 +3,8 @@ import { Logo } from "../images/logolane.jsx";
 import horlogo from "../images/hor-github-logo.png";
 import borlogo from "../images/bor-github-logo.png";
 
+const CurrentYear = new Date().getFullYear();
+
 export default function Footer() {
     return (
         <Container fluid className="mb-2">
@@ -58,7 +60,7 @@ export default function Footer() {
               alignItems: "flex-end",
             }}
           >
-            All rights reserved 2022 ©
+            <span>All rights reserved {CurrentYear} ©</span>
           </Col>
           <Col
             style={{
