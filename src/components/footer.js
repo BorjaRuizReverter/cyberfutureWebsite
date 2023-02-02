@@ -60,7 +60,7 @@ export default function Footer() {
               alignItems: "flex-end",
             }}
           >
-            <span>All rights reserved {CurrentYear} ©</span>
+            All rights reserved {CurrentYear} ©
           </Col>
           <Col
             style={{
