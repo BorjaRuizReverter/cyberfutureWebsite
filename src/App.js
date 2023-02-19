@@ -76,7 +76,7 @@ function App() {
             <div className="paragraph">
               <h1>Cards</h1>
               <h2>
-                Below there are some of our cards.
+                Below are some of our cards.
               </h2>
             </div>
             <Flex>
